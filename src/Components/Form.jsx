@@ -22,7 +22,7 @@ const Form = ({URL, getUsers, updateUserById, register, handleSubmit, reset, obj
     }
     
     const submit = data => {
-        if(objectUpdate.id !== undefined){
+        if(objectUpdate?.id !== undefined){
             updateUserById(objectUpdate.id, data)
             reset(defaultValues)
         } else {
