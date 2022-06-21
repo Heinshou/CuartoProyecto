@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  justify-content: center;
+
+}
+
+.conteiner_card{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.Card{
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  width: 40%;
+
+}
+
+.icon_button{
+  font-size: 25px;
+  color: black;
+  background-color: white;
+  border-style: none;
+  border-radius: 50%;
+  margin-bottom: 5%;
+  
+}
+
+
+.pencil{
+  margin-left: 30%;
+}
+
